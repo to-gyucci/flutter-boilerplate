@@ -328,14 +328,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.0"
-  get_it:
-    dependency: "direct main"
-    description:
-      name: get_it
-      sha256: "1d648d2dd2047d7f7450d5727ca24ee435f240385753d90b49650e3cdff32e56"
-      url: "https://pub.dev"
-    source: hosted
-    version: "9.2.0"
   glob:
     dependency: transitive
     description:
@@ -384,22 +376,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
-  injectable:
-    dependency: "direct main"
-    description:
-      name: injectable
-      sha256: c5dfd2a171dc807780b23d9740d186d83f5430fd9735ce581a413b3310ae44be
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.7.1"
-  injectable_generator:
-    dependency: "direct dev"
-    description:
-      name: injectable_generator
-      sha256: "309c3f3546160dd00b575f16b341a6a3025479950441bcc7fcb2f8404a40d326"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.9.1"
   io:
     dependency: transitive
     description:
@@ -513,7 +489,7 @@ packages:
     source: hosted
     version: "2.0.0"
   mockito:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: mockito
       sha256: dac24d461418d363778d53198d9ac0510b9d073869f078450f195766ec48d05e
@@ -624,14 +600,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.0"
-  recase:
-    dependency: transitive
-    description:
-      name: recase
-      sha256: e4eb4ec2dcdee52dcf99cb4ceabaffc631d7424ee55e56f280bc039737f89213
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.1.0"
   retrofit:
     dependency: "direct main"
     description:
