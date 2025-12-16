@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -9,7 +10,7 @@ import 'package:boilerplate/routing/routes.dart';
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     initialLocation: AppRoutes.home,
-    debugLogDiagnostics: true, // 개발 중 라우팅 로그 확인
+    debugLogDiagnostics: kDebugMode, // 개발 환경에서만 라우팅 로그 출력
     routes: [
       GoRoute(
         path: AppRoutes.home,
